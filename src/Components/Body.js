@@ -17,7 +17,7 @@ const Body = () => {
             </div>
 
             <div>
-            <h2 className="text-4xl font-bold text-center pt-[150px]">\_____Featured Projects_____/</h2>
+            <h2 className="text-4xl text-center pt-[150px]">\_____FEATURED PROJECTS_____/</h2>
                 <FeaturedProjects/>
                 <Footer/>
             </div>

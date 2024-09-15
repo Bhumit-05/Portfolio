@@ -44,6 +44,7 @@ const Skills = () => {
           </div>
 
           <h2 className='text-2xl underline'>Coursework</h2>
+          
           <ul className='list-disc px-[50px]'>
             <li className='mt-[20px]'>Data Structures and Algorithms</li>
             <li>Object Oriented Programming</li>

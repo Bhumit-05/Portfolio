@@ -7,7 +7,9 @@ const Footer = () => {
     <div className='bg-gray-700'>
         <div className='h-[300px] flex  text-xl font-mono'>
             <div className='mx-auto my-auto flex'>
+
                 <div>
+
                     <Link to={GITHUB_PROFILE} className='flex mb-[20px]' target='blank'>
                         <img src={GITHUB_IMG} className='w-[42px]' alt="Github img"/>
                         <p className='my-auto ml-[10px]'>Github</p>
@@ -17,8 +19,11 @@ const Footer = () => {
                         <img src={LINKEDIN_IMG} className='w-[40px]' alt='LinkedIn img'/>
                         <p className=' my-auto ml-[10px]'>LinkedIn</p>
                     </Link>
+
                 </div>
+
                 <div className='ml-[70px] mt-[-15px]'>
+
                     <Link to={LEETCODE_LINK} className='flex mb-[7px]' target='blank'>
                         <img src={LEETCODE_IMG} className='w-[130px]' alt="Leecode img"/>
                         <p className='my-auto ml-[-39px]'>Leetcode</p>
@@ -28,8 +33,11 @@ const Footer = () => {
                         <img src={EMAIL} className='w-[60px]' alt='Mail img'/>
                         <p className=' my-auto ml-[10px]'>bhumit05janghel@gmail.com</p>
                     </Link>
+
                 </div>  
+
                 <div className='ml-[70px]'>
+
                     <Link to="tel:+91 7974844354" className='flex ml-[45px] ' target='blank'>
                         <img src={PHONE} className='w-[40px] h-[40px]' alt='Phone img'/>
                         <p className=' my-auto ml-[10px]'>+91 7974844354</p>
@@ -39,9 +47,11 @@ const Footer = () => {
                         <img src={RESUME_IMG} className='w-[40px] '/>
                         <p className='mt-[5px] ml-[10px]'>Resume</p>
                     </Link>
+
                 </div>
             </div>
         </div>
+        
         <p className='mx-auto max-w-fit pb-[30px]'>Made with 
             <span className='text-red-600 mx-[10px] text-2xl'>
                 ❤️

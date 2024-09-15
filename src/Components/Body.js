@@ -9,6 +9,7 @@ const Body = () => {
         <div>
         <Header/>
         <div className='h-full bg-slate-900 text-gray-200 font-mono'>
+            
             <div>
                 <h1 className='text-4xl text-center pt-[100px]'>Hi, I'm Bhumit Janghel</h1>
                 <h2 className='ml-[37.5%] text-lg pt-[5px]'>A Computer Science & Engineering Student at NIT Raipur</h2>

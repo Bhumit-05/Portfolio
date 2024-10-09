@@ -43,3 +43,9 @@ export const HTML5_LOGO = "https://img.icons8.com/?size=48&id=20909&format=png";
 export const JAVASCRIPT_LOGO = "https://img.icons8.com/?size=48&id=108784&format=png";
 
 export const CSS3_LOGO = "https://img.icons8.com/?size=48&id=21278&format=png";
+
+export const NODE_JS_LOGO = "https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png";
+
+export const EXPRESS_JS_LOGO = "https://img.icons8.com/?size=50&id=kg46nzoJrmTR&format=png";
+
+export const MONGO_DB_LOGO = "https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png";

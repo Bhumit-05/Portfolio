@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import Footer from './Footer';
-import { C_LOGO, CPP_LOGO, CSS3_LOGO, JAVASCRIPT_LOGO, REACT_LOGO, REDUX_LOGO } from '../Utils/Constant';
+import { C_LOGO, CPP_LOGO, CSS3_LOGO, EXPRESS_JS_LOGO, JAVASCRIPT_LOGO, MONGO_DB_LOGO, NODE_JS_LOGO, REACT_LOGO, REDUX_LOGO } from '../Utils/Constant';
 
 const Skills = () => {
   return (
@@ -38,9 +38,24 @@ const Skills = () => {
             <p className='ml-[10px] mt-[10px]'>React.js</p>
           </div>
 
-          <div className='px-[50px] ml-[1px] mb-[50px] flex'>
+          <div className='px-[50px] ml-[1px] flex'>
             <img src={REDUX_LOGO} className='w-[43px] mr-[6px]' alt='redux logo'/>
             <p className='ml-[10px] mt-[10px]'>Redux Toolkit</p>
+          </div>
+
+          <div className='px-[50px] ml-[1px] flex'>
+            <img src={NODE_JS_LOGO} className='w-[43px] mr-[6px]' alt='Node.js logo'/>
+            <p className='ml-[10px] mt-[10px]'>Node.js</p>
+          </div>
+
+          <div className='px-[50px] ml-[1px] mb-[5px] flex'>
+            <img src={EXPRESS_JS_LOGO} className='w-[40px] mr-[6px] bg-gray-500 p-[5px] h-[40px] rounded-md mt-[5px] ml-[3px]' alt='express.js logo'/>
+            <p className='ml-[10px] mt-[10px]'>Express.js</p>
+          </div>
+
+          <div className='px-[50px] ml-[1px] mb-[50px] flex'>
+            <img src={MONGO_DB_LOGO} className='w-[43px] mr-[6px]' alt='mongoDB logo'/>
+            <p className='ml-[10px] mt-[10px]'>MongoDB</p>
           </div>
 
           <h2 className='text-2xl underline'>Coursework</h2>

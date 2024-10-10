@@ -22,7 +22,7 @@ export const PHONE = "https://i.imgur.com/m9vVR1D.png";
 
 export const MY_PHOTO = "https://i.imgur.com/TulpZNm.jpeg";
 
-export const RESUME = "https://drive.google.com/file/d/12md1OzeYZtUvTc0nvwBL2teiySiGc2CQ/view?usp=share_link"
+export const RESUME = "https://drive.google.com/file/d/1EslqpR9FJmIom-GOwCDUJZ1Scm4LLfs8/view?usp=share_link"
 
 export const RESUME_IMG = "https://i.imgur.com/57K5G1e.png";
 
